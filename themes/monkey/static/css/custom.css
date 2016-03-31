@@ -1,17 +1,83 @@
 /* Please override here. */
 
 @font-face {
-  font-family: 'Vollkorn-Regular';
-  src: url('../font/vollkorn-regular-webfont.eot');
-  src: url('../font/vollkorn-regular-webfont.eot#iefix') format('embedded-opentype'),
-       url('../font/vollkorn-regular-webfont.woff') format('woff'),
-       url('../font/vollkorn-regular-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: "vollkorn";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./type/vollkorn-bold-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-bold-webfont.woff") format("woff"), url("./type/vollkorn-bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vollkorn";
+    font-style: italic;
+    font-weight: 700;
+    src: url("./type/vollkorn-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-bolditalic-webfont.woff") format("woff"), url("./type/vollkorn-bolditalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vollkorn";
+    font-style: italic;
+    font-weight: 400;
+    src: url("./type/vollkorn-italic-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-italic-webfont.woff") format("woff"), url("./type/vollkorn-italic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vollkorn";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./type/vollkorn-medium-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-medium-webfont.woff") format("woff"), url("./type/vollkorn-medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vollkorn";
+    font-style: italic;
+    font-weight: 500;
+    src: url("./type/vollkorn-mediumitalic-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-mediumitalic-webfont.woff") format("woff"), url("./type/vollkorn-mediumitalic.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vollkorn";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./type/vollkorn-regular-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-regular-webfont.woff") format("woff"), url("./type/vollkorn-regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vollkorn";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./type/vollkorn-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-semibold-webfont.woff") format("woff"), url("./type/vollkorn-semibold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "vollkorn";
+    font-style: italic;
+    font-weight: 600;
+    src: url("./type/vollkorn-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("./type/vollkorn-semibolditalic-webfont.woff") format("woff"), url("./type/vollkorn-semibolditalic.ttf") format("truetype");
+}
+
+html {
+    font-family: 'vollkorn', 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    font-stretch: normal;
 }
 
 body {
-    font-family: 'Vollkorn-Regular', 'Open Sans', sans-serif;
+    font-family: "vollkorn";
+    font-feature-settings: "kern", "liga", "calt", "dlig", "hlig", "swsh", "salt" off;
+    font-size: 100%;
+    font-variant-ligatures: common-ligatures discretionary-ligatures;
+    text-rendering: optimizelegibility;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar .container {
+    border-top: 5px solid red;
+    /*border-bottom: 2px solid #FF5555;*/
 }
 
 #site-logo {

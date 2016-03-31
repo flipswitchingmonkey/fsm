@@ -3,7 +3,7 @@
 
   <div class="row">
     <div class="col-md-8">
-      {{ range .Paginator.Pages }}
+      {{ range (.Paginate (where .Data.Pages "Section" "post")).Pages }}
       {{ .Render "li" }}
       {{ end }}
       {{ partial "pagination.html" . }}

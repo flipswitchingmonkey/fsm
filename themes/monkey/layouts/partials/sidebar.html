@@ -49,8 +49,20 @@
     {{ if $.Site.Social.github }}
         <a href='https://github.com/{{ $.Site.Social.github }}' title="Github"><span class="social-icon icon-github"/></a>
     {{ end }}
+    {{ if $.Site.Social.gitlab }}
+        <a href='https://gitlab.com/{{ $.Site.Social.github }}' title="Gitlab"><span class="social-icon icon-gitlab"/></a>
+    {{ end }}
+    {{ if $.Site.Social.bitbucket }}
+        <a href='https://bitbucket.org/{{ $.Site.Social.bitbucket }}' title="Bitbucket"><span class="social-icon icon-bitbucket"/></a>
+    {{ end }}
     {{ if $.Site.Social.youtube }}
         <a href='https://youtube.com/channel/{{ $.Site.Social.youtube }}' title="Youtube"><span class="social-icon icon-youtube"/></a>
+    {{ end }}
+    {{ if $.Site.Social.linkedin }}
+        <a href='https://linkedin.com/{{ $.Site.Social.linkedin }}' title="LinkedIn"><span class="social-icon icon-linkedin"/></a>
+    {{ end }}
+    {{ if $.Site.Social.xing }}
+        <a href='https://xing.com/{{ $.Site.Social.xing }}' title="Xing"><span class="social-icon icon-xing"/></a>
     {{ end }}
 </div>
 
