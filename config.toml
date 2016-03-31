@@ -2,6 +2,7 @@ BaseUrl = "http://flipswitchingmonkey.com"
 LanguageCode = "en-us"
 MetadataFormat = "yaml"
 Title = "flipswitchingmonkey"
+theme = "monkey"
 
 [Indexes]
 tag = "tags"
