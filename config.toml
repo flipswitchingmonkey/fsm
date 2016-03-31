@@ -1,0 +1,77 @@
+BaseUrl = "http://flipswitchingmonkey.com"
+LanguageCode = "en-us"
+MetadataFormat = "yaml"
+Title = "flipswitchingmonkey"
+
+[Indexes]
+tag = "tags"
+
+[Menu]
+    [[Menu.main]]
+        "name" = "Home"
+        "pre" = "<i class:'fa fa-home fa-fw'></i>"
+        "weight" = 0
+        "identifier" = "home"
+        "url" = "/"
+    [[Menu.main]]
+        "name" = "Posts"
+        "pre" = "<i class:'fa fa-list fa-fw'></i>"
+        "weight" = 1
+        "identifier" = "post"
+        "url" = "/post/"
+    [[Menu.main]]
+        "name" = "About"
+        "pre" = "<i class:'fa fa-user fa-fw'></i>"
+        "weight" = 2
+        "identifier" = "about"
+        "url" = "/about/"
+    [[Menu.main]]
+        "name" = "Contact"
+        "pre" = "<i class:'fa fa-phone fa-fw'></i>"
+        "weight" = 3
+        "url" = "/contact/"
+    [[Menu.main]]
+        "name" = "Disclaimer"
+        "pre" = "<i class:'fa fa-phone fa-fw'></i>"
+        "weight" = 3
+        "url" = "/disclaimer/"
+    [[Menu.main]]
+        "name" = "Datenschutz"
+        "pre" = "<i class:'fa fa-phone fa-fw'></i>"
+        "weight" = 3
+        "url" = "/datenschutz/"
+
+[Params]
+    Author = "Michael Auerswald"
+    DateForm = "02 Jan 2006, 15:04"
+    Description = "a monkey. flipping switches. what could go wrong?"
+    Disqus = "flipswitchingmonkey"
+    Facebook = "Your ID."
+    Github = "Your ID."
+    GoogleAnalyticsUserID = "UA-75791342-1"
+    ShowRelatedPost = true
+    SyntaxHighlightTheme = "solarized_dark.min.css"
+    Twitter = "Your ID."
+    highlightjs = "androidstudio"
+    logo = "monkey_logo.png"
+
+[Social]
+    behance = ""
+    coderwall = ""
+    facebook = "mauerswald"
+    github = "flipswitchingmonkey"
+    gitlab = "flipswitchingmonkey"
+    googleplus = "MichaelAuerswald"
+    hackernews = "krautsourced"
+    instagram = ""
+    linkedin = "mauerswald"
+    reddit = "krautsourced"
+    stackoverflow = ""
+    stackoverflow_id = ""
+    twitter = "mauerswald"
+    vimeo = "mauerswald"
+    xing = "Michael_Auerswald"
+    youtube = "UC-tp5kigg2tAg7hQhbesylg"
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:title/"

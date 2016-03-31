@@ -1,8 +1,7 @@
 {
   "_aerobatic": {
     "build": {
-      "engine": "hugo",
-      "themeRepo": "https://github.com/digitalcraftsman/hugo-cactus-theme"
+      "engine": "hugo"
     }
   }
 }
