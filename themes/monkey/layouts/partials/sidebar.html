@@ -1,0 +1,58 @@
+
+<aside class="site">
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">Latest Posts</h2>
+    </div>
+    <div class="list-group">
+      {{ range first 10 (where .Site.Pages "Section" "post") }}
+      <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">Latest Articles</h2>
+    </div>
+    <div class="list-group">
+      {{ range first 10 (where .Site.Pages "Section" "article") }}
+      <a href="{{ .Permalink }}" class="list-group-item">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ range $key, $value := .Site.Taxonomies }}
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="panel-title">{{ $key | singularize }}</h2>
+    </div>
+    <div class="list-group">
+      {{ range first 10 $value.ByCount }}
+      <a href="{{ $.Site.BaseURL}}{{ $key }}/{{ .Name | urlize }}" class="list-group-item">{{ .Name }}</a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+<div class="list-group social">
+    {{ if $.Site.Social.facebook }}
+        <a href='http://www.facebook.com/{{ $.Site.Social.facebook }}' title="Facebook"><span class="social-icon icon-facebook"/></a>
+    {{ end }}
+    {{ if $.Site.Social.googleplus }}
+        <a href='https://plus.google.com/{{ $.Site.Social.googleplus }}' rel="author" title="Google+"><span class="social-icon icon-gplus"/></a>
+    {{ end }}
+    {{ if $.Site.Social.twitter }}
+        <a href='http://twitter.com/{{ $.Site.Social.twitter }}' title="Twitter"><span class="social-icon icon-twitter"/></a>
+    {{ end }}
+    {{ if $.Site.Social.github }}
+        <a href='https://github.com/{{ $.Site.Social.github }}' title="Github"><span class="social-icon icon-github"/></a>
+    {{ end }}
+    {{ if $.Site.Social.youtube }}
+        <a href='https://youtube.com/channel/{{ $.Site.Social.youtube }}' title="Youtube"><span class="social-icon icon-youtube"/></a>
+    {{ end }}
+</div>
+
+</aside>
+

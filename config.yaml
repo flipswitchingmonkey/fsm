@@ -1,0 +1,73 @@
+BaseUrl: "http://flipswitchingmonkey.com"
+LanguageCode: "en-us"
+Title: "flipswitchingmonkey"
+
+Params:
+  Description: "a monkey. flipping switches. what could go wrong?"
+  Author: "Michael Auerswald"
+  DateForm: "02 Jan 2006, 15:04"
+  GoogleAnalyticsUserID: "UA-75791342-1"
+  Facebook: "Your ID."
+  Twitter: "Your ID."
+  Github: "Your ID."
+  ShowRelatedPost: True
+  Disqus: "flipswitchingmonkey"
+  SyntaxHighlightTheme: "solarized_dark.min.css"
+  logo: "monkey_logo.png"
+  highlightjs: "androidstudio"
+
+Indexes:
+  tag: "tags"
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+
+MetadataFormat: "yaml"
+
+Social:
+    facebook : "mauerswald"
+    googleplus : "MichaelAuerswald"
+    twitter : "mauerswald"
+    github : "flipswitchingmonkey"
+    coderwall : ""
+    stackoverflow : ""
+    stackoverflow_id : ""
+    linkedin : "mauerswald"
+    instagram : ""
+    behance : ""
+    youtube : "UC-tp5kigg2tAg7hQhbesylg"
+    vimeo : "mauerswald"
+    xing : "Michael_Auerswald"
+    reddit : "krautsourced"
+    hackernews : "krautsourced"
+    gitlab : "flipswitchingmonkey"
+    
+Menu:
+    Main:
+          - name : "Home"
+            pre : "<i class:'fa fa-home fa-fw'></i>"
+            weight : 0
+            identifier : "home"
+            url : "/"
+          - name : "Posts"
+            pre : "<i class:'fa fa-list fa-fw'></i>"
+            weight : 1
+            identifier : "post"
+            url : "/post/"
+          - name : "About"
+            pre : "<i class:'fa fa-user fa-fw'></i>"
+            weight : 2
+            identifier : "about"
+            url : "/about/"
+          - name : "Contact"
+            pre : "<i class:'fa fa-phone fa-fw'></i>"
+            weight : 3
+            url : "/contact/"
+          - name : "Disclaimer"
+            pre : "<i class:'fa fa-phone fa-fw'></i>"
+            weight : 3
+            url : "/disclaimer/"
+          - name : "Datenschutz"
+            pre : "<i class:'fa fa-phone fa-fw'></i>"
+            weight : 3
+            url : "/datenschutz/"

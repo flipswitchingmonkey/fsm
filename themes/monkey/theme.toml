@@ -1,0 +1,11 @@
+name = "Monkey"
+license = "MIT"
+description = "Monkey is based on Beg which is based on Twitter Bootstrap."
+tags = ["blog", "bootstrap"]
+features = ["blog"]
+min_version = 0.15
+
+[author]
+    name = "Michael Auerswald"
+    homepage = "http://flipswitchingmonkey.com"
+
