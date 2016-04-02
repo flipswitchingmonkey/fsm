@@ -1,6 +1,36 @@
 
 <aside class="site">
 
+<div class="list-group social">
+    {{ if $.Site.Social.facebook }}
+        <a href='http://www.facebook.com/{{ $.Site.Social.facebook }}' title="Facebook"><span class="social-icon icon-facebook"/></a>
+    {{ end }}
+    {{ if $.Site.Social.googleplus }}
+        <a href='https://plus.google.com/{{ $.Site.Social.googleplus }}' rel="author" title="Google+"><span class="social-icon icon-gplus"/></a>
+    {{ end }}
+    {{ if $.Site.Social.twitter }}
+        <a href='http://twitter.com/{{ $.Site.Social.twitter }}' title="Twitter"><span class="social-icon icon-twitter"/></a>
+    {{ end }}
+    {{ if $.Site.Social.github }}
+        <a href='https://github.com/{{ $.Site.Social.github }}' title="Github"><span class="social-icon icon-github"/></a>
+    {{ end }}
+    {{ if $.Site.Social.gitlab }}
+        <a href='https://gitlab.com/{{ $.Site.Social.github }}' title="Gitlab"><span class="social-icon icon-gitlab"/></a>
+    {{ end }}
+    {{ if $.Site.Social.bitbucket }}
+        <a href='https://bitbucket.org/{{ $.Site.Social.bitbucket }}' title="Bitbucket"><span class="social-icon icon-bitbucket"/></a>
+    {{ end }}
+    {{ if $.Site.Social.youtube }}
+        <a href='https://youtube.com/channel/{{ $.Site.Social.youtube }}' title="Youtube"><span class="social-icon icon-youtube"/></a>
+    {{ end }}
+    {{ if $.Site.Social.linkedin }}
+        <a href='https://linkedin.com/{{ $.Site.Social.linkedin }}' title="LinkedIn"><span class="social-icon icon-linkedin"/></a>
+    {{ end }}
+    {{ if $.Site.Social.xing }}
+        <a href='https://xing.com/{{ $.Site.Social.xing }}' title="Xing"><span class="social-icon icon-xing"/></a>
+    {{ end }}
+</div>
+
   <div class="panel panel-default">
     <div class="panel-heading">
       <h2 class="panel-title">Latest Posts</h2>
@@ -36,35 +66,6 @@
   </div>
   {{ end }}
 
-<div class="list-group social">
-    {{ if $.Site.Social.facebook }}
-        <a href='http://www.facebook.com/{{ $.Site.Social.facebook }}' title="Facebook"><span class="social-icon icon-facebook"/></a>
-    {{ end }}
-    {{ if $.Site.Social.googleplus }}
-        <a href='https://plus.google.com/{{ $.Site.Social.googleplus }}' rel="author" title="Google+"><span class="social-icon icon-gplus"/></a>
-    {{ end }}
-    {{ if $.Site.Social.twitter }}
-        <a href='http://twitter.com/{{ $.Site.Social.twitter }}' title="Twitter"><span class="social-icon icon-twitter"/></a>
-    {{ end }}
-    {{ if $.Site.Social.github }}
-        <a href='https://github.com/{{ $.Site.Social.github }}' title="Github"><span class="social-icon icon-github"/></a>
-    {{ end }}
-    {{ if $.Site.Social.gitlab }}
-        <a href='https://gitlab.com/{{ $.Site.Social.github }}' title="Gitlab"><span class="social-icon icon-gitlab"/></a>
-    {{ end }}
-    {{ if $.Site.Social.bitbucket }}
-        <a href='https://bitbucket.org/{{ $.Site.Social.bitbucket }}' title="Bitbucket"><span class="social-icon icon-bitbucket"/></a>
-    {{ end }}
-    {{ if $.Site.Social.youtube }}
-        <a href='https://youtube.com/channel/{{ $.Site.Social.youtube }}' title="Youtube"><span class="social-icon icon-youtube"/></a>
-    {{ end }}
-    {{ if $.Site.Social.linkedin }}
-        <a href='https://linkedin.com/{{ $.Site.Social.linkedin }}' title="LinkedIn"><span class="social-icon icon-linkedin"/></a>
-    {{ end }}
-    {{ if $.Site.Social.xing }}
-        <a href='https://xing.com/{{ $.Site.Social.xing }}' title="Xing"><span class="social-icon icon-xing"/></a>
-    {{ end }}
-</div>
 
 </aside>
 

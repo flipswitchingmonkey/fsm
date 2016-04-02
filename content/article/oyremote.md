@@ -6,7 +6,7 @@ date: 2015-03-28
 
 ---
 
-![text](/images/2015/03/oyremote0171.png)
+![text](/uploads/2015/03/oyremote0171.png)
 
 Please note that there will be no more development on this application. I don't even own the receiver any more. It's still available as is though, for those who'd like to give it a go. Also, since people were asking for the source code, I've made what I could still find available on GitHub (it's version 0.11 only unfortunately): [https://github.com/flipswitchingmonkey/oyremote](https://github.com/flipswitchingmonkey/oyremote)
 
