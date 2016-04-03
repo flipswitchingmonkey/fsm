@@ -45,7 +45,7 @@ With this it is very easy to create further functions like to get all projects:
 
 Pretty much the same, except now we can use the user&#8217;s own URL. And this is basically how I plan to implement most of the API, at least for the read-only functions.
 
-As an initial test I displayed all project&#8217;s start and end dates on a timeline, using the [visjs][1] library&#8217;s Timeline object. Works like a charm.
+As an initial test I displayed all project&#8217;s start and end dates on a timeline, using the [visjs](http://visjs.org/) library&#8217;s Timeline object. Works like a charm.
 
 The next step will be to incorporate user&#8217;s holidays and other blocked times into the timeline to easily spot potential conflicts. This kind of reporting is unfortunately still missing from Teamwork (January &#8217;15), but I hear they are working on it. Until then we&#8217;ll build our own. I am still working out the details on _how_ to display all the infos, though&#8230;
 
@@ -68,5 +68,3 @@ And finally, another extension
 to create web forms easily. Only used it for the login dialog so far, but it is very straight forward to use.
 
 Next is creating more Teamwork API wrappers and working out a good way to display the kind of reports mentioned above.
-
- [1]: http://visjs.org/

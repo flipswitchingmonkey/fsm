@@ -11,7 +11,7 @@ tags:
   - Cinema4D
   - Houdini
   - Tutorial
-
+image: Blending-curves-in-Houdini.mp4_20160110_190218.796-1024x576.jpg
 ---
 Finally I have got around to recording a new tutorial. I'll try and make this a more regular
 thing from now on (as in, more regular than once every year). We'll see how that turns out...

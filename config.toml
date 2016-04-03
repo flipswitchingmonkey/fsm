@@ -2,7 +2,9 @@ BaseUrl = "http://flipswitchingmonkey.com/"
 LanguageCode = "en-us"
 MetadataFormat = "yaml"
 Title = "flipswitchingmonkey"
-theme = "monkey"
+theme = "robust"
+canonifyurls = true
+paginate = 10
 
 [Indexes]
 tag = "tags"
@@ -46,6 +48,7 @@ tag = "tags"
     SyntaxHighlightTheme = "solarized_dark.min.css"
     highlightjs = "androidstudio"
     logo = "monkey_logo.png"
+    image = "monkey_logo.png"
 
 [Social]
     behance = ""

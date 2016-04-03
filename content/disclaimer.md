@@ -1,9 +1,9 @@
-+++
-date = "2016-03-31T23:52:33+02:00"
-draft = false
-title = "disclaimer"
-
-+++
+---
+date : "2016-03-31T23:52:33+02:00"
+draft : false
+title : "disclaimer"
+image: "monkey_trans_800px.png"
+---
 
 Some legalese for German visitors...
 

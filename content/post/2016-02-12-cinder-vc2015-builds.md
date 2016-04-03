@@ -9,7 +9,7 @@ categories:
 tags:
   - C++
   - Cinder
-
+image: "monkey_trans_800px.png"
 ---
 If you&#8217;re working with Cinder on Windows, maybe these binary builds can be of some use to you.
 

@@ -1,9 +1,9 @@
-+++
-date = "2016-03-31T23:52:52+02:00"
-draft = false
-title = "contact"
-
-+++
+---
+date : "2016-03-31T23:52:52+02:00"
+draft : false
+title : "contact"
+image: "monkey_trans_800px.png"
+---
 
 **Michael Auerswald**  
 Voltairestr. 3  

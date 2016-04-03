@@ -11,7 +11,7 @@ tags:
   - Cinema4D
   - Houdini
   - Tutorial
-
+image: EqualizingCurvePointsResampling.mp4_20160114_232750.687-1024x576.jpg
 ---
 As a follow up to my previous tutorial, here is a look at how to resample two curves
 in a way that keeps their shape and increases the point count to an equal number,

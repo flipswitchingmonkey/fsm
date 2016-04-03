@@ -5,7 +5,7 @@ layout: post
 date: 2016-03-30
 categories:
   - Peanuts
-
+image: "monkey_trans_800px.png"
 ---
 
 I've had enough of the constant updates necessary to keep Wordpress even remotely safe. And even then,

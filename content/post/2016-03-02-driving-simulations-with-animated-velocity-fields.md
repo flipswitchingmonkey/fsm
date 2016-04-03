@@ -9,7 +9,7 @@ categories:
 tags:
   - Houdini
   - Tutorial
-
+image: Driving-simulations-with-velocity-fields-in-Houdini-HD.mp4_20160302_132710.968-1024x576.jpg
 ---
 Driving DOP sims with animated geometry converted to velocity fields can be a lot faster and 
 offers more control than many other means of influencing sims. In this tutorial I'll quickly
