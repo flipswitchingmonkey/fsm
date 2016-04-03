@@ -9,7 +9,7 @@ categories:
 tags:
   - CUDA
   - Fabric Engine
-
+image: "fabric-engine-remember-to-set-up-your-cuda-environment.png"
 ---
 If, when you run a GPU canvas scene for the first time, Fabric Engine complains about missing hardware support, check your log files whether maybe `nvvm64_20_0.dll` was not found. It is a library that is part of the CUDA toolkit (Version 6.0 in this case) and, unlike the bin and libnvvp directory, is not added to your system path by the installer. So make sure to also add `c:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\nvvm\bin\` to it.
 

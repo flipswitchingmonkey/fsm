@@ -8,7 +8,7 @@ categories:
   - Houdini
 tags:
   - Houdini
-
+image: "2015-10-22-houdini-15-icons.jpg"
 ---
 Just like before for H13 and H14, I made a few custom icons to keep things organized on my desktop. 
 

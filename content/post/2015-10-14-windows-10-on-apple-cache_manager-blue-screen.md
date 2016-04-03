@@ -9,7 +9,7 @@ categories:
 tags:
   - OSX
   - Windows
-
+image: "windows-10-on-apple-cache_manager-blue-screen.png"
 ---
 We&#8217;ve just tried to install Windows 10 (and 8.1 previously, same problem) on an older Mac Pro. Whatever we did, we ended up with a Blue Screen shortly after starting up Windows, citing an error in the cache_manager.
 
