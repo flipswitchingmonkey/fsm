@@ -1,4 +1,4 @@
-BaseUrl = "http://flipswitchingmonkey.com/"
+BaseUrl = "//flipswitchingmonkey.com/"
 LanguageCode = "en-us"
 MetadataFormat = "yaml"
 Title = "flipswitchingmonkey"
