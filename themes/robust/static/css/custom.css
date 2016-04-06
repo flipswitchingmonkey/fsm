@@ -10,7 +10,8 @@
 }
 
 .site-logo-image {
-    height: 64px;
+    /*height: 64px;*/
+    height: auto;
     width: 64px;
 }
 

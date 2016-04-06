@@ -53,8 +53,8 @@ tag = "tags"
     ShowRelatedPost = true
     SyntaxHighlightTheme = "solarized-light.min.css"
     highlightjs = "androidstudio"
-    logo = "monkey_logo.png"
-    image = "monkey_logo.png"
+    logo = "monkey_logo.svg"
+    image = "monkey_logo.svg"
 
 [Social]
     behance = ""
