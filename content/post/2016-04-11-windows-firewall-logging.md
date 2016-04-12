@@ -20,7 +20,7 @@ it was reset at some point (update? some change I made? who knows.)
 To make things easier in the future, I wrote three very, very simple batch files to turn these notifications on and off. You may want to turn the off if
 you don't need them, because they will put your log files full of shit. Lots of it. Thousands of entries a minute, if you're a bit busy.
 
-    enable-WF-logging.bat
+### enable-WF-logging.bat
 ``` batch
 echo off
 cls
@@ -29,7 +29,7 @@ auditpol /set /subcategory:"Filtering Platform Packet Drop" /success:enable /fai
 auditpol /set /subcategory:"Filtering Platform Connection" /success:enable /failure:enable
 ```
 
-    enable-WF-failure-logging.bat
+### enable-WF-failure-logging.bat
 ``` batch
 echo off
 cls
@@ -38,7 +38,7 @@ auditpol /set /subcategory:"Filtering Platform Packet Drop" /success:disable /fa
 auditpol /set /subcategory:"Filtering Platform Connection" /success:disable /failure:enable
 ```
 
-    disable-WF-logging.bat
+### disable-WF-logging.bat
 ``` batch
 echo off
 cls
