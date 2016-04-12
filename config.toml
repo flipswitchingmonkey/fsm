@@ -46,7 +46,7 @@ tag = "tags"
 
 [Params]
     Author = "Michael Auerswald"
-    DateForm = "02 Jan 2006, 15:04"
+    DateForm = "02 Jan 2006"
     Description = "a monkey. flipping switches. what could go wrong?"
     Disqus = "flipswitchingmonkey"
     GoogleAnalyticsUserID = "UA-75791342-1"
