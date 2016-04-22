@@ -25,8 +25,9 @@ Here's the Pull Request:
 [https://github.com/EpicGames/UnrealEngine/pull/2311](https://github.com/EpicGames/UnrealEngine/pull/2311)
 
 It really is only a matter of adding the middle mouse button handling to these functions:
+
     SNodePanel.cpp
-        SNodePanel::OnMouseButtonDown
-        SNodePanel::OnMouseMove
-        SNodePanel::OnMouseButtonUp
-        
+    -> SNodePanel::OnMouseButtonDown
+    -> SNodePanel::OnMouseMove
+    -> SNodePanel::OnMouseButtonUp
+    
