@@ -22,5 +22,10 @@ If you are ever plagued by the `Unknown compiler version - please run the config
   
 You need to raise the versions to the correct one in that case (or just live with the warning which, as far as I know, does nothing else).
 
+You can get the version numbers by opening the Developer Command Prompt for VS2015 (or whatever it is called by then) and running `cl.exe /?`
+
+For VS2015 SP2 it is:
+`#if (_MSC_VER > 1900 && _MSC_FULL_VER > 190023918)`
+
 The repo:  
 [https://gitlab.com/flipswitchingmonkey/cinder_vc2015](https://gitlab.com/flipswitchingmonkey/cinder_vc2015)
