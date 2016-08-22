@@ -1,0 +1,48 @@
+<div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    {{ partial "sidebarheader.html" . }}
+
+	{{ if .Site.Params.sidebarphoto}}
+    <a class="nodeco" href="{{ .Site.BaseURL }}">
+	    <img src="{{.Site.Params.sidebarphoto}}" class="sidebarphoto">
+    </a>
+	{{ end }}
+
+    {{ if .Site.Params.sidebartitle }}<a class="nodeco" href="{{ .Site.BaseURL }}"><h1 class="brand-title">{{ .Site.Params.sidebartitle }}</h1></a>{{ end }}
+    {{ if .Site.Params.sidebartagline }}<a class="nodeco" href="{{ .Site.BaseURL }}"><h2 class="brand-tagline">{{ .Site.Params.sidebartagline }}</h2></a>{{ end }}
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="{{ .Site.BaseURL }}">Home</a></li>
+        {{ range .Site.Menus.main }}
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+
+    {{ if .Site.Menus.social }}
+    <div class="social-buttons">
+      {{ range .Site.Menus.social }}
+        {{ if .URL }}
+        <a href="{{ .URL }}" target="_blank">{{ .Pre }}</a>
+        {{ end }}
+      {{ end }}
+      
+    </div>
+    {{ end }}
+
+
+    <div class="post-categories">
+      <ul class="ul-categories">
+        {{ range $key, $value := .Site.Taxonomies }}
+          {{ if eq $key "categories" }}
+            {{ range $k, $v := $value }}
+              <li class=""><span class="nav-item-separator">//</span><a class="post-category post-category-{{ $k | urlize }}" href="/categories/{{ $k | urlize }}" >{{ $k }}</a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      </ul>
+    </div>
+
+  </div>
+</div>

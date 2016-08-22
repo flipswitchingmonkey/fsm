@@ -1,21 +1,34 @@
-BaseUrl = "//flipswitchingmonkey.com/"
+BaseUrl = "http://www.flipswitchingmonkey.com/"
 LanguageCode = "en-us"
 MetadataFormat = "yaml"
 Title = "flipswitchingmonkey"
-theme = "robust"
+theme = "redlounge"
 canonifyurls = true
 paginate = 10
 
 [Indexes]
 tag = "tags"
 
+[Params]
+    Author = "Michael Auerswald"
+    DateForm = "02 Jan 2006"
+    Description = "a monkey. flipping switches. what could go wrong?"
+    Disqus = "flipswitchingmonkey"
+    disqusShortname = "flipswitchingmonkey"
+    GoogleAnalyticsUserID = "UA-75791342-1"
+    ShowRelatedPost = true
+    SyntaxHighlightTheme = "solarized-light.min.css"
+    highlightjs = "androidstudio"
+    logo = "monkey_logo.svg"
+    image = "monkey_logo.svg"
+    sidebartitle = "flipswitchingmonkey"
+	sidebartagline = "what could possibly go wrong?"
+    sidebarphoto = "/images/monkey_logo_transp_white.svg"
+    categoriescss = "/css/custom.css"
+    fontcss = "/css/fontello.css"
+    socialsharing = true
+
 [Menu]
-    [[Menu.main]]
-        "name" = "Home"
-        "pre" = "<i class:'fa fa-home fa-fw'></i>"
-        "weight" = 0
-        "identifier" = "home"
-        "url" = "/"
     [[Menu.main]]
         "name" = "Posts"
         "pre" = "<i class:'fa fa-list fa-fw'></i>"
@@ -43,18 +56,30 @@ tag = "tags"
         "name" = "Disclaimer"
         "weight" = 4
         "url" = "/disclaimer/"
-
-[Params]
-    Author = "Michael Auerswald"
-    DateForm = "02 Jan 2006"
-    Description = "a monkey. flipping switches. what could go wrong?"
-    Disqus = "flipswitchingmonkey"
-    GoogleAnalyticsUserID = "UA-75791342-1"
-    ShowRelatedPost = true
-    SyntaxHighlightTheme = "solarized-light.min.css"
-    highlightjs = "androidstudio"
-    logo = "monkey_logo.svg"
-    image = "monkey_logo.svg"
+    [[Menu.social]]
+        pre = "<i class='social-icon icon-twitter'></i>"
+        url = "http://www.twitter.com/mauerswald"
+        identifier = "twitter"
+    [[Menu.social]]
+        pre = "<i class='social-icon icon-facebook'></i>"
+        url = "http://www.facebook.com/mauerswald"
+        identifier = "facebook"
+    [[Menu.social]]
+        pre = "<i class='social-icon icon-xing'></i>"
+        url = "https://xing.com/Michael_Auerswald"
+        identifier = "xing"
+    [[Menu.social]]
+        pre = "<i class='social-icon icon-linkedin'></i>"
+        url = "https://linkedin.com/mauerswald"
+        identifier = "linkedin"
+    [[Menu.social]]
+        pre = "<i class='social-icon icon-youtube'></i>"
+        url = "https://youtube.com/channel/UC-tp5kigg2tAg7hQhbesylg"
+        identifier = "youtube"
+    [[Menu.social]]
+        pre = "<i class='social-icon icon-github'></i>"
+        url = "https://github.com/flipswitchingmonkey"
+        identifier = "github"
 
 [Social]
     behance = ""

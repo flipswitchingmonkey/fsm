@@ -5,10 +5,8 @@ layout: post
 date: 2016-01-10
 url: /2016/01/blending-curves-in-houdini-and-a-look-at-for-each-loops/
 categories:
-  - Cinema 4D
   - Houdini
 tags:
-  - Cinema4D
   - Houdini
   - Tutorial
 image: Blending-curves-in-Houdini.mp4_20160110_190218.796-1024x576.jpg

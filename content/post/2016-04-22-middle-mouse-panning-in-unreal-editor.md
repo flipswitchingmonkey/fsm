@@ -5,10 +5,12 @@ layout: post
 date: 2016-04-22
 categories:
   - Development
+  - Gamedev
 tags:
   - Development
   - Unreal
 image: "2016-04-22-middle-mouse-panning-in-unreal-editor.jpg"
+socialsharing: true
 ---
 
 Lately I've been playing around with the [Unreal Engine 4 source code](https://github.com/EpicGames/UnrealEngine) and it's quite a 

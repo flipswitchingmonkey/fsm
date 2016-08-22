@@ -5,10 +5,8 @@ layout: post
 date: 2016-01-14
 url: /2016/01/equalizing-curve-points/
 categories:
-  - Cinema 4D
   - Houdini
 tags:
-  - Cinema4D
   - Houdini
   - Tutorial
 image: EqualizingCurvePointsResampling.mp4_20160114_232750.687-1024x576.jpg
